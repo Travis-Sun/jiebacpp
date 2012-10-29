@@ -35,6 +35,7 @@ private:
     PWORD_ITEM m_pWordHeader;
     void LoadByLine(char* sDictfile);
     void LoadByBin(char* sDictfile);
+    double m_totalFreq = 0.0
 };
 
 #endif
